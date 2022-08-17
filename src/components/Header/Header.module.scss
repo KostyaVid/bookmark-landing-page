@@ -1,0 +1,27 @@
+.header {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.logo {
+  z-index: 10;
+}
+
+.active__logo {
+  @media screen and (max-width: 992px) {
+    g {
+      path {
+        fill: var(--VeryDarkBlue);
+      }
+      path:first-child {
+        fill: #fff;
+      }
+      circle {
+        fill: #fff;
+      }
+    }
+  }
+}

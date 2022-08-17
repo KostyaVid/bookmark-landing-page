@@ -1,0 +1,61 @@
+.card {
+  margin-top: 60px;
+  @media screen and (min-width: 993px) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.image {
+  width: 100%;
+  position: relative;
+  min-height: 80vw;
+  @media screen and (min-width: 993px) {
+    min-height: 495px;
+    width: 50%;
+  }
+}
+
+.laptop {
+  width: 100%;
+  z-index: 1;
+}
+
+.laptopBG {
+  width: 90%;
+  height: 68%;
+  background-color: var(--SoftBlue);
+  position: absolute;
+  top: 10%;
+  left: -28px;
+  z-index: -1;
+  border-bottom-right-radius: 50%;
+  border-top-right-radius: 50%;
+  @media screen and (min-width: 993px) {
+    height: 90%;
+  }
+}
+
+.text {
+  overflow: hidden;
+  min-height: 150px;
+  @media screen and (min-width: 993px) {
+    max-width: 450px;
+    width: 31.25%;
+    h3 {
+      text-align: left;
+    }
+    p {
+      text-align: left;
+    }
+  }
+}
+
+.button {
+  display: none;
+  margin-top: 35px;
+  @media screen and (min-width: 993px) {
+    display: block;
+  }
+}

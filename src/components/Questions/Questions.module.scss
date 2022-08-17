@@ -1,0 +1,21 @@
+.questions {
+  margin-top: 115px;
+  margin-bottom: 100px;
+  @media screen and (min-width: 993px) {
+    margin-top: 160px;
+    margin-bottom: 150px;
+  }
+  p {
+    margin-bottom: 60px;
+  }
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  max-width: 100px;
+  @media screen and (min-width: 993px) {
+    margin-top: 55px;
+  }
+}

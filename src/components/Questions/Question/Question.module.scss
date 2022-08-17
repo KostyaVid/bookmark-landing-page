@@ -1,0 +1,29 @@
+.list {
+  max-width: 540px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ececec;
+  p {
+    text-align: start;
+  }
+}
+
+.title {
+  width: 100%;
+  padding: 20px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @media screen and (min-width: 993px) {
+    transition: color 0.2s ease;
+    &:hover {
+      color: var(--SoftRed);
+    }
+  }
+  h5 {
+    font-weight: 500;
+    @media screen and (min-width: 993px) {
+      font-size: 18px;
+    }
+  }
+}

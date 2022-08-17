@@ -1,0 +1,89 @@
+.footerHeader {
+  width: 100%;
+  background-color: var(--SoftBlue);
+}
+
+.footerHeaderContainer {
+  margin: 0 auto;
+  max-width: 490px;
+  width: 100%;
+  padding: 60px 25px 30px 25px;
+  text-align: center;
+  @media screen and (min-width: 993px) {
+    padding: 70px 25px 50px 25px;
+  }
+}
+
+.text {
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+.title {
+  color: #fff;
+  margin-top: 10px;
+  @media screen and (min-width: 993px) {
+    font-size: 32px;
+    margin-top: 40px;
+  }
+}
+
+.form {
+  margin-top: 25px;
+  @media screen and (min-width: 993px) {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+.inputWithWarning {
+  width: 100%;
+  margin-bottom: 30px;
+  position: relative;
+  @media screen and (min-width: 993px) {
+    width: auto;
+    margin-bottom: 0;
+    margin-right: 15px;
+    flex: 1 0 0;
+  }
+}
+
+.input {
+  width: 100%;
+  padding: 14px 38px 14px 15px;
+  border-radius: 4px;
+  position: relative;
+  z-index: 2;
+}
+
+.warning {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  background-color: var(--SoftRed);
+  border-radius: 50%;
+  color: #fff;
+  line-height: 17px;
+  bottom: 50%;
+  right: 12px;
+  transform: translateY(50%);
+  z-index: 3;
+}
+
+.warningText {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  display: flex;
+  align-items: flex-end;
+  width: calc(100% + 4px);
+  height: calc(100% + 24px);
+  padding: 5px 10px;
+  font-size: 10px;
+  text-align: left;
+  border-radius: 4px;
+  background-color: var(--SoftRed);
+  color: #fff;
+  z-index: 1;
+}

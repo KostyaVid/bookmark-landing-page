@@ -1,0 +1,59 @@
+.button {
+  width: 100%;
+  padding: 13px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+  @media screen and (min-width: 993px) {
+    width: max-content;
+    &:hover {
+      background-color: #fff;
+    }
+  }
+}
+
+.primary {
+  background-color: var(--SoftBlue);
+  border: 2px solid var(--SoftBlue);
+  @media screen and (min-width: 993px) {
+    &:hover {
+      color: var(--SoftBlue);
+      border: 2px solid var(--SoftBlue);
+    }
+  }
+}
+
+.secondary {
+  background-color: var(--SoftRed);
+  border: 2px solid var(--SoftRed);
+  @media screen and (min-width: 993px) {
+    &:hover {
+      color: var(--SoftRed);
+      border: 2px solid var(--SoftRed);
+    }
+  }
+}
+
+.outline {
+  color: var(--GrayishBlue);
+  background-color: #f7f7f9;
+  border: 2px solid #f7f7f9;
+  -webkit-box-shadow: 0px 2px 10px 0px rgba(145, 148, 161, 0.6);
+  -moz-box-shadow: 0px 2px 10px 0px rgba(145, 148, 161, 0.6);
+  box-shadow: 0px 2px 10px 0px rgba(145, 148, 161, 0.6);
+  @media screen and (min-width: 993px) {
+    &:hover {
+      color: var(--GrayishBlue);
+      border: 2px solid var(--GrayishBlue);
+      border: 2px solid var(--GrayishBlue);
+    }
+  }
+}
+
+.isWide {
+  @media screen and (min-width: 993px) {
+    width: 100%;
+  }
+}
